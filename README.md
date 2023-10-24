@@ -1,6 +1,6 @@
 # jail_csgo
 
-#RU
+##RU
 
 ![jailwarden.sp](https://github.com/Alart7471/jail_csgo/blob/main/jailwarden.sp) - ядро плагина, подтягивает за собой файлы из jw_modules, включает:
 -система командиров, меню командира, функции взаимодействия командира с игроками,
@@ -41,9 +41,9 @@ shop.sp - реализация игрового магазина, включае
 x|система казино(реализована полностью, требует балансировочные правки, сейчас выключена)
 
 
-#EN
+##EN
 
-jailwarden.sp is the core of the plugin, pulls files from jw_modules, includes:
+###![jailwarden.sp](https://github.com/Alart7471/jail_csgo/blob/main/jailwarden.sp) is the core of the plugin, pulls files from jw_modules, includes:
 -commander's system, commander's menu, commander's interaction functions with players,
 nobloc, mutation of the guard team, slap on the head, free
 -skin change system for certain groups of players
