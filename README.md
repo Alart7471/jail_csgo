@@ -2,7 +2,7 @@
 
 ## RU
 
-![jailwarden.sp](https://github.com/Alart7471/jail_csgo/blob/main/jailwarden.sp) - ядро плагина, подтягивает за собой файлы из jw_modules, включает:
+### ![jailwarden.sp](https://github.com/Alart7471/jail_csgo/blob/main/jailwarden.sp) - ядро плагина, подтягивает за собой файлы из jw_modules, включает:
 -система командиров, меню командира, функции взаимодействия командира с игроками,
 ноблок, мут команды охраны, подзатыльник, фридей
 -система смены скинов определенным группам игроков
