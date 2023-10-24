@@ -17,14 +17,14 @@
 - Начало/конец раунда, смерть/убийство игрока/игроком, детект использования команд
 - (Х) Система личных сообщений между игроками (реализована на 50%, есть сомнения в необходимости)
 
-	- vip.sp - ядро для VIP игроков, включает:
+	- vip.sp (модуль) - ядро для VIP игроков, включает:
 		- идентификацию VIP игроков, проверку в базе данных
 		- выдачу персональных скинов
 		- пассивное усиление свойств игрока в начале каждого раунда (скорость, здоровье и т.д.)
 		- выдачу VIP статуса для админов, удаление VIP статуса для админов
 		- тестовую выдачу первого VIP статуса игроку
 
-	- commands.sp - список команд для пользователей:
+	- commands.sp (модуль) - список команд для пользователей:
 		- команды, доступные всем игрокам: сменить команду, перейти в наблюдатели,
 		получить свой SteamID, SteamID64, ссылки на сервер Discord, VK, сайт,
 		узнать текущее время, правила сервера
@@ -33,10 +33,10 @@
 		- реклама на сервере (MOTD), вывод сообщений каждые 30-60 секунд
 
 - shop.sp - реализация игрового магазина, включает:
-- открытие и отрисовку меню магазина
-- покупку предметов и их выдачу
-- операции с валютой "кредиты", сохранение в базе данных, начисление призовых кредитов
-- (X) система казино (полностью реализована, требует балансировки, сейчас отключена)
+	- открытие и отрисовку меню магазина
+	- покупку предметов и их выдачу
+	- операции с валютой "кредиты", сохранение в базе данных, начисление призовых кредитов
+	- (X) система казино (полностью реализована, требует балансировки, сейчас отключена)
 
 ## EN
 
@@ -55,14 +55,14 @@
 - Round start/end, player death/kill, detection of command usage
 - Partially implemented system for personal messages between players (50% complete, doubts about necessity)
 
-- vip.sp - core for VIP players, including:
+- vip.sp (module) - core for VIP players, including:
   - identification of VIP players, database check
   - issuance of personal skins
   - passive enhancement of player properties at the beginning of each round (speed, health, etc.)
   - issuance of VIP for admins, removal of VIP for admins
   - test issuance of the first VIP to a player
 
-- commands.sp - a comprehensive list of user information commands:
+- commands.sp (module) - a comprehensive list of user information commands:
   - commands available to all players: change sides, go to spectators,
     get your SteamID, SteamID64, find server links for Discord, VK, website,
     get the current time, find server rules
@@ -71,7 +71,7 @@
   - server advertising (MOTD) with messages displayed every tick (30sec-60sec)
 
 - shop.sp - implementation of a game shop, including:
-- opening and rendering of the shop menu
-- purchase of items and their distribution
-- operations with currency "credits", storing in the database, awarding prize credits at the end of the round
-- (X) casino system (fully implemented, requires balancing adjustments, currently disabled)
+	- opening and rendering of the shop menu
+	- purchase of items and their distribution
+	- operations with currency "credits", storing in the database, awarding prize credits at the end of the round
+	- (X) casino system (fully implemented, requires balancing adjustments, currently disabled)
