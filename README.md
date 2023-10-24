@@ -53,7 +53,7 @@
 - Access rights verification for players, admins, etc.
 - Tracking of all server actions and recording them in statistics
 - Round start/end, player death/kill, detection of command usage
-- Partially implemented system for personal messages between players (50% complete, doubts about necessity)
+- (X) Partially implemented system for personal messages between players (50% complete, doubts about necessity)
 
 - vip.sp (module) - core for VIP players, including:
   - identification of VIP players, database check
